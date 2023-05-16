@@ -11,10 +11,14 @@ config_version=4
 [application]
 
 config/name="ganon"
-run/main_scene="res://VideoPlayer.tscn"
+run/main_scene="res://program.tscn"
 boot_splash/show_image=false
 boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.png"
+
+[display]
+
+window/size/fullscreen=true
 
 [gui]
 
